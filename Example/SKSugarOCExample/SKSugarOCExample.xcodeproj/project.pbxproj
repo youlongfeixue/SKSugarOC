@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC0D1B93613992D934F96A8 /* Pods_SKSugarOCExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BE5FB61A2579E83719EF7C /* Pods_SKSugarOCExample.framework */; };
+		4689B458B8B52D3BED2A9868 /* Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213BE90728272FE69FD95751 /* Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework */; };
+		6E526D14F0067A072B806603 /* Pods_SKSugarOCExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E5EC3E7FED4F3E2E85006A /* Pods_SKSugarOCExampleTests.framework */; };
+		EAA3DF432497B95800B30E30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3DF422497B95800B30E30 /* AppDelegate.m */; };
+		EAA3DF462497B95800B30E30 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3DF452497B95800B30E30 /* SceneDelegate.m */; };
+		EAA3DF492497B95800B30E30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3DF482497B95800B30E30 /* ViewController.m */; };
+		EAA3DF4C2497B95800B30E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA3DF4A2497B95800B30E30 /* Main.storyboard */; };
+		EAA3DF4E2497B95900B30E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA3DF4D2497B95900B30E30 /* Assets.xcassets */; };
+		EAA3DF512497B95900B30E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA3DF4F2497B95900B30E30 /* LaunchScreen.storyboard */; };
+		EAA3DF542497B95900B30E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3DF532497B95900B30E30 /* main.m */; };
+		EAA3DF5E2497B95900B30E30 /* SKSugarOCExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3DF5D2497B95900B30E30 /* SKSugarOCExampleTests.m */; };
+		EAA3DF692497B95900B30E30 /* SKSugarOCExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3DF682497B95900B30E30 /* SKSugarOCExampleUITests.m */; };
+		EAA3DF7B2497B9F800B30E30 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = EAA3DF792497B9F800B30E30 /* .gitkeep */; };
+		EAA3DF7C2497B9F800B30E30 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3DF7A2497B9F800B30E30 /* ReplaceMe.m */; };
+		EAA3DF7E2497BA1600B30E30 /* SKSugarOC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EAA3DF7D2497BA1500B30E30 /* SKSugarOC.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAA3DF5A2497B95900B30E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA3DF362497B95800B30E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA3DF3D2497B95800B30E30;
+			remoteInfo = SKSugarOCExample;
+		};
+		EAA3DF652497B95900B30E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA3DF362497B95800B30E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA3DF3D2497B95800B30E30;
+			remoteInfo = SKSugarOCExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018C7B97C70AE0DEE9676F1E /* Pods-SKSugarOCExample-SKSugarOCExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExample-SKSugarOCExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExample-SKSugarOCExampleUITests/Pods-SKSugarOCExample-SKSugarOCExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E3116DB39640078EF056AA6 /* Pods-SKSugarOCExample-SKSugarOCExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExample-SKSugarOCExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExample-SKSugarOCExampleUITests/Pods-SKSugarOCExample-SKSugarOCExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		213BE90728272FE69FD95751 /* Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6C0CA3D95DCC624030D38E /* Pods-SKSugarOCExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExampleTests.release.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExampleTests/Pods-SKSugarOCExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C6541BCF59BD6340F033DE7 /* Pods-SKSugarOCExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExample.debug.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExample/Pods-SKSugarOCExample.debug.xcconfig"; sourceTree = "<group>"; };
+		A1E5EC3E7FED4F3E2E85006A /* Pods_SKSugarOCExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSugarOCExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BE5FB61A2579E83719EF7C /* Pods_SKSugarOCExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSugarOCExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FFD74AEA63A88DE2C71E81 /* Pods-SKSugarOCExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExampleTests/Pods-SKSugarOCExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1B73A5F852975ECD58209F8 /* Pods-SKSugarOCExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExample.release.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExample/Pods-SKSugarOCExample.release.xcconfig"; sourceTree = "<group>"; };
+		EAA3DF3E2497B95800B30E30 /* SKSugarOCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKSugarOCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA3DF412497B95800B30E30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAA3DF422497B95800B30E30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAA3DF442497B95800B30E30 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EAA3DF452497B95800B30E30 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EAA3DF472497B95800B30E30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAA3DF482497B95800B30E30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAA3DF4B2497B95800B30E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAA3DF4D2497B95900B30E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA3DF502497B95900B30E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAA3DF522497B95900B30E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA3DF532497B95900B30E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAA3DF592497B95900B30E30 /* SKSugarOCExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKSugarOCExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA3DF5D2497B95900B30E30 /* SKSugarOCExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKSugarOCExampleTests.m; sourceTree = "<group>"; };
+		EAA3DF5F2497B95900B30E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA3DF642497B95900B30E30 /* SKSugarOCExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKSugarOCExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA3DF682497B95900B30E30 /* SKSugarOCExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKSugarOCExampleUITests.m; sourceTree = "<group>"; };
+		EAA3DF6A2497B95900B30E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA3DF792497B9F800B30E30 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EAA3DF7A2497B9F800B30E30 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		EAA3DF7D2497BA1500B30E30 /* SKSugarOC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SKSugarOC.podspec; path = ../../SKSugarOC.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA3DF3B2497B95800B30E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC0D1B93613992D934F96A8 /* Pods_SKSugarOCExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA3DF562497B95900B30E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E526D14F0067A072B806603 /* Pods_SKSugarOCExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA3DF612497B95900B30E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4689B458B8B52D3BED2A9868 /* Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32D356CCB5985E562523C8E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE5FB61A2579E83719EF7C /* Pods_SKSugarOCExample.framework */,
+				213BE90728272FE69FD95751 /* Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework */,
+				A1E5EC3E7FED4F3E2E85006A /* Pods_SKSugarOCExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4236993FBF9AD3C096606568 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C6541BCF59BD6340F033DE7 /* Pods-SKSugarOCExample.debug.xcconfig */,
+				D1B73A5F852975ECD58209F8 /* Pods-SKSugarOCExample.release.xcconfig */,
+				018C7B97C70AE0DEE9676F1E /* Pods-SKSugarOCExample-SKSugarOCExampleUITests.debug.xcconfig */,
+				1E3116DB39640078EF056AA6 /* Pods-SKSugarOCExample-SKSugarOCExampleUITests.release.xcconfig */,
+				B9FFD74AEA63A88DE2C71E81 /* Pods-SKSugarOCExampleTests.debug.xcconfig */,
+				8F6C0CA3D95DCC624030D38E /* Pods-SKSugarOCExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAA3DF352497B95800B30E30 = {
+			isa = PBXGroup;
+			children = (
+				EAA3DF7D2497BA1500B30E30 /* SKSugarOC.podspec */,
+				EAA3DF782497B9F800B30E30 /* Classes */,
+				EAA3DF402497B95800B30E30 /* SKSugarOCExample */,
+				EAA3DF5C2497B95900B30E30 /* SKSugarOCExampleTests */,
+				EAA3DF672497B95900B30E30 /* SKSugarOCExampleUITests */,
+				EAA3DF3F2497B95800B30E30 /* Products */,
+				4236993FBF9AD3C096606568 /* Pods */,
+				32D356CCB5985E562523C8E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA3DF3F2497B95800B30E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3DF3E2497B95800B30E30 /* SKSugarOCExample.app */,
+				EAA3DF592497B95900B30E30 /* SKSugarOCExampleTests.xctest */,
+				EAA3DF642497B95900B30E30 /* SKSugarOCExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA3DF402497B95800B30E30 /* SKSugarOCExample */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3DF412497B95800B30E30 /* AppDelegate.h */,
+				EAA3DF422497B95800B30E30 /* AppDelegate.m */,
+				EAA3DF442497B95800B30E30 /* SceneDelegate.h */,
+				EAA3DF452497B95800B30E30 /* SceneDelegate.m */,
+				EAA3DF472497B95800B30E30 /* ViewController.h */,
+				EAA3DF482497B95800B30E30 /* ViewController.m */,
+				EAA3DF4A2497B95800B30E30 /* Main.storyboard */,
+				EAA3DF4D2497B95900B30E30 /* Assets.xcassets */,
+				EAA3DF4F2497B95900B30E30 /* LaunchScreen.storyboard */,
+				EAA3DF522497B95900B30E30 /* Info.plist */,
+				EAA3DF532497B95900B30E30 /* main.m */,
+			);
+			path = SKSugarOCExample;
+			sourceTree = "<group>";
+		};
+		EAA3DF5C2497B95900B30E30 /* SKSugarOCExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3DF5D2497B95900B30E30 /* SKSugarOCExampleTests.m */,
+				EAA3DF5F2497B95900B30E30 /* Info.plist */,
+			);
+			path = SKSugarOCExampleTests;
+			sourceTree = "<group>";
+		};
+		EAA3DF672497B95900B30E30 /* SKSugarOCExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3DF682497B95900B30E30 /* SKSugarOCExampleUITests.m */,
+				EAA3DF6A2497B95900B30E30 /* Info.plist */,
+			);
+			path = SKSugarOCExampleUITests;
+			sourceTree = "<group>";
+		};
+		EAA3DF782497B9F800B30E30 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3DF792497B9F800B30E30 /* .gitkeep */,
+				EAA3DF7A2497B9F800B30E30 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA3DF3D2497B95800B30E30 /* SKSugarOCExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA3DF6D2497B95900B30E30 /* Build configuration list for PBXNativeTarget "SKSugarOCExample" */;
+			buildPhases = (
+				3D4DE9ABE2C0F213F94C3386 /* [CP] Check Pods Manifest.lock */,
+				EAA3DF3A2497B95800B30E30 /* Sources */,
+				EAA3DF3B2497B95800B30E30 /* Frameworks */,
+				EAA3DF3C2497B95800B30E30 /* Resources */,
+				3800CBE3B000213233964EF7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKSugarOCExample;
+			productName = SKSugarOCExample;
+			productReference = EAA3DF3E2497B95800B30E30 /* SKSugarOCExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAA3DF582497B95900B30E30 /* SKSugarOCExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA3DF702497B95900B30E30 /* Build configuration list for PBXNativeTarget "SKSugarOCExampleTests" */;
+			buildPhases = (
+				0C0B79A12FCAA8BEDC241C6A /* [CP] Check Pods Manifest.lock */,
+				EAA3DF552497B95900B30E30 /* Sources */,
+				EAA3DF562497B95900B30E30 /* Frameworks */,
+				EAA3DF572497B95900B30E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA3DF5B2497B95900B30E30 /* PBXTargetDependency */,
+			);
+			name = SKSugarOCExampleTests;
+			productName = SKSugarOCExampleTests;
+			productReference = EAA3DF592497B95900B30E30 /* SKSugarOCExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAA3DF632497B95900B30E30 /* SKSugarOCExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA3DF732497B95900B30E30 /* Build configuration list for PBXNativeTarget "SKSugarOCExampleUITests" */;
+			buildPhases = (
+				137B7699D6A9F33E08E95232 /* [CP] Check Pods Manifest.lock */,
+				EAA3DF602497B95900B30E30 /* Sources */,
+				EAA3DF612497B95900B30E30 /* Frameworks */,
+				EAA3DF622497B95900B30E30 /* Resources */,
+				6E7DA64D6E46691361914765 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA3DF662497B95900B30E30 /* PBXTargetDependency */,
+			);
+			name = SKSugarOCExampleUITests;
+			productName = SKSugarOCExampleUITests;
+			productReference = EAA3DF642497B95900B30E30 /* SKSugarOCExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA3DF362497B95800B30E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = YouLong;
+				TargetAttributes = {
+					EAA3DF3D2497B95800B30E30 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					EAA3DF582497B95900B30E30 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EAA3DF3D2497B95800B30E30;
+					};
+					EAA3DF632497B95900B30E30 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EAA3DF3D2497B95800B30E30;
+					};
+				};
+			};
+			buildConfigurationList = EAA3DF392497B95800B30E30 /* Build configuration list for PBXProject "SKSugarOCExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA3DF352497B95800B30E30;
+			productRefGroup = EAA3DF3F2497B95800B30E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA3DF3D2497B95800B30E30 /* SKSugarOCExample */,
+				EAA3DF582497B95900B30E30 /* SKSugarOCExampleTests */,
+				EAA3DF632497B95900B30E30 /* SKSugarOCExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA3DF3C2497B95800B30E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA3DF512497B95900B30E30 /* LaunchScreen.storyboard in Resources */,
+				EAA3DF7E2497BA1600B30E30 /* SKSugarOC.podspec in Resources */,
+				EAA3DF4E2497B95900B30E30 /* Assets.xcassets in Resources */,
+				EAA3DF4C2497B95800B30E30 /* Main.storyboard in Resources */,
+				EAA3DF7B2497B9F800B30E30 /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA3DF572497B95900B30E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA3DF622497B95900B30E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C0B79A12FCAA8BEDC241C6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKSugarOCExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		137B7699D6A9F33E08E95232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKSugarOCExample-SKSugarOCExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3800CBE3B000213233964EF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKSugarOCExample/Pods-SKSugarOCExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKSugarOCExample/Pods-SKSugarOCExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SKSugarOCExample/Pods-SKSugarOCExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D4DE9ABE2C0F213F94C3386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKSugarOCExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E7DA64D6E46691361914765 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKSugarOCExample-SKSugarOCExampleUITests/Pods-SKSugarOCExample-SKSugarOCExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKSugarOCExample-SKSugarOCExampleUITests/Pods-SKSugarOCExample-SKSugarOCExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SKSugarOCExample-SKSugarOCExampleUITests/Pods-SKSugarOCExample-SKSugarOCExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA3DF3A2497B95800B30E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA3DF492497B95800B30E30 /* ViewController.m in Sources */,
+				EAA3DF432497B95800B30E30 /* AppDelegate.m in Sources */,
+				EAA3DF7C2497B9F800B30E30 /* ReplaceMe.m in Sources */,
+				EAA3DF542497B95900B30E30 /* main.m in Sources */,
+				EAA3DF462497B95800B30E30 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA3DF552497B95900B30E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA3DF5E2497B95900B30E30 /* SKSugarOCExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA3DF602497B95900B30E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA3DF692497B95900B30E30 /* SKSugarOCExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA3DF5B2497B95900B30E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA3DF3D2497B95800B30E30 /* SKSugarOCExample */;
+			targetProxy = EAA3DF5A2497B95900B30E30 /* PBXContainerItemProxy */;
+		};
+		EAA3DF662497B95900B30E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA3DF3D2497B95800B30E30 /* SKSugarOCExample */;
+			targetProxy = EAA3DF652497B95900B30E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAA3DF4A2497B95800B30E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA3DF4B2497B95800B30E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA3DF4F2497B95900B30E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA3DF502497B95900B30E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA3DF6B2497B95900B30E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAA3DF6C2497B95900B30E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA3DF6E2497B95900B30E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6541BCF59BD6340F033DE7 /* Pods-SKSugarOCExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKSugarOCExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sky.youlong.SKSugarOCExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA3DF6F2497B95900B30E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B73A5F852975ECD58209F8 /* Pods-SKSugarOCExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKSugarOCExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sky.youlong.SKSugarOCExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAA3DF712497B95900B30E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FFD74AEA63A88DE2C71E81 /* Pods-SKSugarOCExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKSugarOCExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sky.youlong.SKSugarOCExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKSugarOCExample.app/SKSugarOCExample";
+			};
+			name = Debug;
+		};
+		EAA3DF722497B95900B30E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6C0CA3D95DCC624030D38E /* Pods-SKSugarOCExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKSugarOCExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sky.youlong.SKSugarOCExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKSugarOCExample.app/SKSugarOCExample";
+			};
+			name = Release;
+		};
+		EAA3DF742497B95900B30E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018C7B97C70AE0DEE9676F1E /* Pods-SKSugarOCExample-SKSugarOCExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKSugarOCExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sky.youlong.SKSugarOCExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKSugarOCExample;
+			};
+			name = Debug;
+		};
+		EAA3DF752497B95900B30E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3116DB39640078EF056AA6 /* Pods-SKSugarOCExample-SKSugarOCExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKSugarOCExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sky.youlong.SKSugarOCExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKSugarOCExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA3DF392497B95800B30E30 /* Build configuration list for PBXProject "SKSugarOCExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA3DF6B2497B95900B30E30 /* Debug */,
+				EAA3DF6C2497B95900B30E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA3DF6D2497B95900B30E30 /* Build configuration list for PBXNativeTarget "SKSugarOCExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA3DF6E2497B95900B30E30 /* Debug */,
+				EAA3DF6F2497B95900B30E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA3DF702497B95900B30E30 /* Build configuration list for PBXNativeTarget "SKSugarOCExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA3DF712497B95900B30E30 /* Debug */,
+				EAA3DF722497B95900B30E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA3DF732497B95900B30E30 /* Build configuration list for PBXNativeTarget "SKSugarOCExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA3DF742497B95900B30E30 /* Debug */,
+				EAA3DF752497B95900B30E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA3DF362497B95800B30E30 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_SKSugarOCExampleTests {
+  umbrella header "Pods-SKSugarOCExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
