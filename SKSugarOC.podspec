@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/tonysky/SKSugarOC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'Classes/**/*'
   
@@ -48,7 +48,7 @@ end
 #   修改 .podspec 文件版本号，push工程
 #
 #2. 打tag，提交tag (跟版本号同步)
-#    //为git打tag, 第一次需要在前面加一个v (跟文件版本号一致)
+#    //为git打tag, 第一次需要在前面加一个v (跟.podspec文件版本号一致)
 #    git tag "v1.0.0" 
 #    //将tag推送到远程仓库
 #    git push --tags 
