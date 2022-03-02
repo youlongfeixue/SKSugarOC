@@ -1,6 +1,0 @@
-framework module SKSugarOC {
-  umbrella header "SKSugarOC-umbrella.h"
-
-  export *
-  module * { export * }
-}

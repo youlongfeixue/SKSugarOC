@@ -1,2 +1,0 @@
-# SKSugarOC
-SKSugarOC
