@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33B377CB27CF16D1004A7CE6 /* UILabel+SKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B377CA27CF16D1004A7CE6 /* UILabel+SKAddition.m */; };
 		3FC0D1B93613992D934F96A8 /* Pods_SKSugarOCExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BE5FB61A2579E83719EF7C /* Pods_SKSugarOCExample.framework */; };
 		4689B458B8B52D3BED2A9868 /* Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213BE90728272FE69FD95751 /* Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework */; };
 		6E526D14F0067A072B806603 /* Pods_SKSugarOCExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E5EC3E7FED4F3E2E85006A /* Pods_SKSugarOCExampleTests.framework */; };
 		EAA3DF432497B95800B30E30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3DF422497B95800B30E30 /* AppDelegate.m */; };
-		EAA3DF462497B95800B30E30 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3DF452497B95800B30E30 /* SceneDelegate.m */; };
 		EAA3DF492497B95800B30E30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3DF482497B95800B30E30 /* ViewController.m */; };
 		EAA3DF4C2497B95800B30E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA3DF4A2497B95800B30E30 /* Main.storyboard */; };
 		EAA3DF4E2497B95900B30E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA3DF4D2497B95900B30E30 /* Assets.xcassets */; };
@@ -45,6 +45,8 @@
 		018C7B97C70AE0DEE9676F1E /* Pods-SKSugarOCExample-SKSugarOCExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExample-SKSugarOCExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExample-SKSugarOCExampleUITests/Pods-SKSugarOCExample-SKSugarOCExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E3116DB39640078EF056AA6 /* Pods-SKSugarOCExample-SKSugarOCExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExample-SKSugarOCExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExample-SKSugarOCExampleUITests/Pods-SKSugarOCExample-SKSugarOCExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		213BE90728272FE69FD95751 /* Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B377C927CF16D1004A7CE6 /* UILabel+SKAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+SKAddition.h"; sourceTree = "<group>"; };
+		33B377CA27CF16D1004A7CE6 /* UILabel+SKAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SKAddition.m"; sourceTree = "<group>"; };
 		8F6C0CA3D95DCC624030D38E /* Pods-SKSugarOCExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExampleTests.release.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExampleTests/Pods-SKSugarOCExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		9C6541BCF59BD6340F033DE7 /* Pods-SKSugarOCExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExample.debug.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExample/Pods-SKSugarOCExample.debug.xcconfig"; sourceTree = "<group>"; };
 		A1E5EC3E7FED4F3E2E85006A /* Pods_SKSugarOCExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSugarOCExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,8 +56,6 @@
 		EAA3DF3E2497B95800B30E30 /* SKSugarOCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKSugarOCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA3DF412497B95800B30E30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAA3DF422497B95800B30E30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EAA3DF442497B95800B30E30 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		EAA3DF452497B95800B30E30 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		EAA3DF472497B95800B30E30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EAA3DF482497B95800B30E30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EAA3DF4B2497B95800B30E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +112,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		33B377C827CF1639004A7CE6 /* SKAddition */ = {
+			isa = PBXGroup;
+			children = (
+				33B377C927CF16D1004A7CE6 /* UILabel+SKAddition.h */,
+				33B377CA27CF16D1004A7CE6 /* UILabel+SKAddition.m */,
+			);
+			path = SKAddition;
+			sourceTree = "<group>";
+		};
 		4236993FBF9AD3C096606568 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,8 +163,6 @@
 			children = (
 				EAA3DF412497B95800B30E30 /* AppDelegate.h */,
 				EAA3DF422497B95800B30E30 /* AppDelegate.m */,
-				EAA3DF442497B95800B30E30 /* SceneDelegate.h */,
-				EAA3DF452497B95800B30E30 /* SceneDelegate.m */,
 				EAA3DF472497B95800B30E30 /* ViewController.h */,
 				EAA3DF482497B95800B30E30 /* ViewController.m */,
 				EAA3DF4A2497B95800B30E30 /* Main.storyboard */,
@@ -188,6 +195,7 @@
 		EAA3DF782497B9F800B30E30 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				33B377C827CF1639004A7CE6 /* SKAddition */,
 				EAA3DF792497B9F800B30E30 /* .gitkeep */,
 				EAA3DF7A2497B9F800B30E30 /* ReplaceMe.m */,
 			);
@@ -438,8 +446,8 @@
 				EAA3DF492497B95800B30E30 /* ViewController.m in Sources */,
 				EAA3DF432497B95800B30E30 /* AppDelegate.m in Sources */,
 				EAA3DF7C2497B9F800B30E30 /* ReplaceMe.m in Sources */,
+				33B377CB27CF16D1004A7CE6 /* UILabel+SKAddition.m in Sources */,
 				EAA3DF542497B95900B30E30 /* main.m in Sources */,
-				EAA3DF462497B95800B30E30 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +619,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SKSugarOCExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -628,6 +637,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SKSugarOCExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
