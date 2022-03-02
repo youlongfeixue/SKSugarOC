@@ -7,7 +7,7 @@ target 'SKSugarOCExample' do
 
   # Pods for SKSugarOCExample
   
-  pod 'SKSugarOC'
+  #pod 'SKSugarOC'
   
   
   
