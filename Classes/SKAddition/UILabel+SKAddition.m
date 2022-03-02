@@ -98,7 +98,7 @@
                fontSize:(CGFloat)fontSize 
                   color:(UIColor *)color
 {
-    return [self sk_text:text fontSize:fontSize color:UIColor.blackColor alignment:NSTextAlignmentLeft];
+    return [self sk_text:text fontSize:fontSize color:color alignment:NSTextAlignmentLeft];
 }
 
 /// sk_根据 text/ fontSize/ color/ alignment 创建 label 【默认不加粗】
@@ -107,7 +107,7 @@
                   color:(UIColor *)color 
               alignment:(NSTextAlignment)alignment
 {
-    return [self sk_text:text fontSize:fontSize color:UIColor.blackColor alignment:NSTextAlignmentLeft isBold:NO];
+    return [self sk_text:text fontSize:fontSize color:color alignment:alignment isBold:NO];
 }
 
 /// sk_根据 text/ fontSize/ color/ alignment/ isBold 创建 label 
@@ -117,7 +117,7 @@
               alignment:(NSTextAlignment)alignment 
                  isBold:(BOOL)isBold
 {
-    return [self sk_text:text fontSize:fontSize color:UIColor.blackColor alignment:NSTextAlignmentLeft isBold:NO isFreedom:NO];
+    return [self sk_text:text fontSize:fontSize color:color alignment:alignment isBold:isBold isFreedom:NO];
 }
 
 // 总方法- sk_根据 text/ fontSize/ color/ alignment/ isBold/ isFreedom/ (^tapAction) 创建 label
@@ -158,7 +158,7 @@
                colorHex:(uint32_t)colorHex
               alignment:(NSTextAlignment)alignment
 {
-    return [self sk_text:text fontSize:fontSize colorHex:colorHex alignment:NSTextAlignmentLeft isBold:NO];
+    return [self sk_text:text fontSize:fontSize colorHex:colorHex alignment:alignment isBold:NO];
 }
 
 /// sk_根据 text/ fontSize/ colorHex/ alignment/ isBold 创建 label 
@@ -168,7 +168,7 @@
               alignment:(NSTextAlignment)alignment 
                  isBold:(BOOL)isBold
 {
-    return [self sk_text:text fontSize:fontSize colorHex:colorHex alignment:NSTextAlignmentLeft isBold:NO isFreedom:NO];
+    return [self sk_text:text fontSize:fontSize colorHex:colorHex alignment:alignment isBold:isBold isFreedom:NO];
 }
 
 
@@ -202,7 +202,7 @@
             colorHexStr:(NSString *)colorHexStr
               alignment:(NSTextAlignment)alignment
 {
-    return [self sk_text:text fontSize:fontSize colorHexStr:colorHexStr alignment:NSTextAlignmentLeft isBold:NO];
+    return [self sk_text:text fontSize:fontSize colorHexStr:colorHexStr alignment:alignment isBold:NO];
 }
 
 /// sk_根据 text/ fontSize/ colorHexStr/ alignment/ isBold 创建 label 
@@ -212,7 +212,7 @@
               alignment:(NSTextAlignment)alignment 
                  isBold:(BOOL)isBold
 {
-    return [self sk_text:text fontSize:fontSize colorHexStr:colorHexStr alignment:NSTextAlignmentLeft isBold:NO isFreedom:NO];
+    return [self sk_text:text fontSize:fontSize colorHexStr:colorHexStr alignment:alignment isBold:isBold isFreedom:NO];
 }
 
 
