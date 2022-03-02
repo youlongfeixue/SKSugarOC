@@ -215,6 +215,15 @@
     return [self sk_text:text fontSize:fontSize colorHexStr:colorHexStr alignment:alignment isBold:isBold isFreedom:NO];
 }
 
+/// sk_根据 text/ fontSize/ colorHexStr/ isBold 创建 label 
++ (instancetype)sk_text:(NSString *)text 
+               fontSize:(CGFloat)fontSize 
+            colorHexStr:(NSString *)colorHexStr
+                 isBold:(BOOL)isBold
+{
+    return [self sk_text:text fontSize:fontSize colorHexStr:colorHexStr alignment:NSTextAlignmentLeft isBold:isBold];
+}
+
 
 /// sk_根据 text/ fontSize/ colorHexStr/ alignment/ isBold/ isFreedom/ (^tapAction) 创建 label
 /// 
