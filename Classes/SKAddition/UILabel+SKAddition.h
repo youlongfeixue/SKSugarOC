@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UILabel (SKAddition)
 
+
+#pragma mark 使用 UIColor
+
 /// sk_根据 text 创建 label 【字号默认14，黑色，不加粗，左对齐】
 + (instancetype)sk_text:(NSString *)text;
 
@@ -51,7 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-
+#pragma mark 使用 UIColorHex (uint32_t)
 
 /// sk_根据 text/ fontSize/ colorHex 创建 label 【默认不加粗，左对齐】
 + (instancetype)sk_text:(NSString *)text 
@@ -82,6 +85,42 @@ NS_ASSUME_NONNULL_BEGIN
               alignment:(NSTextAlignment)alignment 
                  isBold:(BOOL)isBold 
               isFreedom:(BOOL)isFreedom; 
+
+
+
+#pragma mark 使用 UIColorHex (string)
+
+/// sk_根据 text/ fontSize/ colorHexStr 创建 label 【默认不加粗，左对齐】
++ (instancetype)sk_text:(NSString *)text 
+               fontSize:(CGFloat)fontSize 
+                  colorHexStr:(NSString *)colorHexStr;
+
+/// sk_根据 text/ fontSize/ colorHexStr/ alignment 创建 label 【默认不加粗】
++ (instancetype)sk_text:(NSString *)text 
+               fontSize:(CGFloat)fontSize 
+            colorHexStr:(NSString *)colorHexStr
+              alignment:(NSTextAlignment)alignment;
+
+/// sk_根据 text/ fontSize/ colorHexStr/ alignment/ isBold 创建 label 
++ (instancetype)sk_text:(NSString *)text 
+               fontSize:(CGFloat)fontSize 
+            colorHexStr:(NSString *)colorHexStr
+              alignment:(NSTextAlignment)alignment 
+                 isBold:(BOOL)isBold;
+
+
+/// sk_根据 text/ fontSize/ colorHexStr/ alignment/ isBold/ isFreedom/ (^tapAction) 创建 label
+/// 
+/// @param isBold 字体是否加粗
+/// @param isFreedom 是否不自动适应文字: true-自由的，不自动适应；false-自动适应文字大小;
++ (instancetype)sk_text:(NSString *)text 
+               fontSize:(CGFloat)fontSize 
+            colorHexStr:(NSString *)colorHexStr
+              alignment:(NSTextAlignment)alignment 
+                 isBold:(BOOL)isBold 
+              isFreedom:(BOOL)isFreedom; 
+
+
 
 
 
