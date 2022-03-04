@@ -16,9 +16,9 @@
 }
 
 + (instancetype)hex:(uint32_t)colorHex alpha:(CGFloat)alpha {
-    return [UIColor colorWithRed:(colorHex & 0xFF0000) >> 16 / 255  
-                           green:(colorHex & 0x00FF00) >> 8 / 255
-                            blue:colorHex & 0x0000FF / 255 
+    return [UIColor colorWithRed:(float)((colorHex & 0xFF0000) >> 16) / 255.0
+                           green:(float)((colorHex & 0x00FF00) >> 8) / 255.0
+                            blue:(float)(colorHex & 0x0000FF) / 255.0
                            alpha:alpha];
 }
 
@@ -120,6 +120,17 @@
     return [self sk_text:text fontSize:fontSize color:color alignment:alignment isBold:isBold isFreedom:NO];
 }
 
+/// sk_根据 text/ fontSize/ colorHex/ isBold 创建 label 
++ (instancetype)sk_text:(NSString *)text 
+               fontSize:(CGFloat)fontSize 
+               color:(UIColor *)color
+                 isBold:(BOOL)isBold
+{
+    return [self sk_text:text fontSize:fontSize color:color alignment:NSTextAlignmentLeft isBold:isBold];
+}
+
+
+
 // 总方法- sk_根据 text/ fontSize/ color/ alignment/ isBold/ isFreedom/ (^tapAction) 创建 label
 + (instancetype)sk_text:(NSString *)text 
                fontSize:(CGFloat)fontSize 
@@ -131,6 +142,8 @@
     UILabel *lb = [[UILabel alloc] init];
     lb.text = text;
     lb.textColor = color;
+    lb.textAlignment = alignment;
+    lb.numberOfLines = 0;
     
     lb.font = isBold ? [UIFont boldSystemFontOfSize:fontSize] : [UIFont systemFontOfSize:fontSize];
     isFreedom ?: [lb sizeToFit];
@@ -170,6 +183,16 @@
 {
     return [self sk_text:text fontSize:fontSize colorHex:colorHex alignment:alignment isBold:isBold isFreedom:NO];
 }
+
+/// sk_根据 text/ fontSize/ colorHex/ isBold 创建 label 
++ (instancetype)sk_text:(NSString *)text 
+               fontSize:(CGFloat)fontSize 
+               colorHex:(uint32_t)colorHex
+                 isBold:(BOOL)isBold
+{
+    return [self sk_text:text fontSize:fontSize colorHex:colorHex alignment:NSTextAlignmentLeft isBold:isBold];
+}
+
 
 
 // 总方法- sk_根据 text/ fontSize/ colorHex/ alignment/ isBold/ isFreedom/ (^tapAction) 创建 label

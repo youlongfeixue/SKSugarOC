@@ -74,6 +74,13 @@ NS_ASSUME_NONNULL_BEGIN
               alignment:(NSTextAlignment)alignment 
                  isBold:(BOOL)isBold;
 
+/// sk_根据 text/ fontSize/ colorHex/ isBold 创建 label 
++ (instancetype)sk_text:(NSString *)text 
+               fontSize:(CGFloat)fontSize 
+               colorHex:(uint32_t)colorHex
+                 isBold:(BOOL)isBold;
+
+
 
 /// sk_根据 text/ fontSize/ colorHex/ alignment/ isBold/ isFreedom/ (^tapAction) 创建 label
 /// 
