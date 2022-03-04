@@ -272,6 +272,52 @@
 
 
 
+#pragma mark  --------  添加背景颜色  -------- 
+
++ (instancetype)sk_title:(NSString *)title 
+                fontSize:(CGFloat)fontSize 
+              isFontBold:(BOOL)isFontBold 
+                   color:(UIColor *)color
+         backgroundColor:(UIColor *)backgroundColor 
+                  target:(_Nullable id)target
+                  action:(_Nullable SEL)action
+{
+    UIButton *button = [self sk_title:title fontSize:fontSize isFontBold:isFontBold color:color target:target action:action];
+    button.backgroundColor = backgroundColor;
+    return button;
+}
+
++ (instancetype)sk_title:(NSString *)title 
+                fontSize:(CGFloat)fontSize 
+              isFontBold:(BOOL)isFontBold 
+                colorHex:(uint32_t)colorHex
+         backgroundColorHex:(uint32_t)backgroundColorHex 
+                  target:(_Nullable id)target
+                  action:(_Nullable SEL)action
+{
+    UIButton *button = [self sk_title:title fontSize:fontSize isFontBold:isFontBold colorHex:colorHex target:target action:action];
+    button.backgroundColor = [UIColor hex:backgroundColorHex];
+    return button;
+}
+
++ (instancetype)sk_title:(NSString *)title 
+                fontSize:(CGFloat)fontSize 
+              isFontBold:(BOOL)isFontBold 
+             colorHexStr:(NSString *)colorHexStr
+      backgroundColorHexStr:(NSString *)backgroundColorStr 
+                  target:(_Nullable id)target
+                  action:(_Nullable SEL)action
+{
+    UIButton *button = [self sk_title:title fontSize:fontSize isFontBold:isFontBold colorHexStr:colorHexStr target:target action:action];
+    button.backgroundColor = [UIColor hexStr:backgroundColorStr];
+    return button;
+}
+
+
+
+
+
+
 
 
 @end

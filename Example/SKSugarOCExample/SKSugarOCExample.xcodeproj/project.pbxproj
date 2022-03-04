@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		33B377CB27CF16D1004A7CE6 /* UILabel+SKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B377CA27CF16D1004A7CE6 /* UILabel+SKAddition.m */; };
 		33B377D227CF4550004A7CE6 /* UIButton+SKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B377D127CF4550004A7CE6 /* UIButton+SKAddition.m */; };
+		33FEF0B627D22A2A00EE1157 /* SKRectangleToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FEF0B427D22A2A00EE1157 /* SKRectangleToastView.m */; };
 		3FC0D1B93613992D934F96A8 /* Pods_SKSugarOCExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BE5FB61A2579E83719EF7C /* Pods_SKSugarOCExample.framework */; };
 		4689B458B8B52D3BED2A9868 /* Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213BE90728272FE69FD95751 /* Pods_SKSugarOCExample_SKSugarOCExampleUITests.framework */; };
 		6E526D14F0067A072B806603 /* Pods_SKSugarOCExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E5EC3E7FED4F3E2E85006A /* Pods_SKSugarOCExampleTests.framework */; };
@@ -50,6 +51,8 @@
 		33B377CA27CF16D1004A7CE6 /* UILabel+SKAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SKAddition.m"; sourceTree = "<group>"; };
 		33B377D027CF4550004A7CE6 /* UIButton+SKAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SKAddition.h"; sourceTree = "<group>"; };
 		33B377D127CF4550004A7CE6 /* UIButton+SKAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SKAddition.m"; sourceTree = "<group>"; };
+		33FEF0B427D22A2A00EE1157 /* SKRectangleToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRectangleToastView.m; sourceTree = "<group>"; };
+		33FEF0B527D22A2A00EE1157 /* SKRectangleToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRectangleToastView.h; sourceTree = "<group>"; };
 		8F6C0CA3D95DCC624030D38E /* Pods-SKSugarOCExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExampleTests.release.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExampleTests/Pods-SKSugarOCExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		9C6541BCF59BD6340F033DE7 /* Pods-SKSugarOCExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSugarOCExample.debug.xcconfig"; path = "Target Support Files/Pods-SKSugarOCExample/Pods-SKSugarOCExample.debug.xcconfig"; sourceTree = "<group>"; };
 		A1E5EC3E7FED4F3E2E85006A /* Pods_SKSugarOCExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSugarOCExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +129,23 @@
 			path = SKAddition;
 			sourceTree = "<group>";
 		};
+		33FEF0B227D22A2A00EE1157 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				33FEF0B327D22A2A00EE1157 /* SKRectangleToastView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		33FEF0B327D22A2A00EE1157 /* SKRectangleToastView */ = {
+			isa = PBXGroup;
+			children = (
+				33FEF0B527D22A2A00EE1157 /* SKRectangleToastView.h */,
+				33FEF0B427D22A2A00EE1157 /* SKRectangleToastView.m */,
+			);
+			path = SKRectangleToastView;
+			sourceTree = "<group>";
+		};
 		4236993FBF9AD3C096606568 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +220,7 @@
 		EAA3DF782497B9F800B30E30 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				33FEF0B227D22A2A00EE1157 /* Common */,
 				33B377C827CF1639004A7CE6 /* SKAddition */,
 				EAA3DF792497B9F800B30E30 /* .gitkeep */,
 				EAA3DF7A2497B9F800B30E30 /* ReplaceMe.m */,
@@ -413,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA3DF492497B95800B30E30 /* ViewController.m in Sources */,
+				33FEF0B627D22A2A00EE1157 /* SKRectangleToastView.m in Sources */,
 				33B377D227CF4550004A7CE6 /* UIButton+SKAddition.m in Sources */,
 				EAA3DF432497B95800B30E30 /* AppDelegate.m in Sources */,
 				EAA3DF7C2497B9F800B30E30 /* ReplaceMe.m in Sources */,

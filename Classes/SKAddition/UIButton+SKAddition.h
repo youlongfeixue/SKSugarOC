@@ -120,6 +120,33 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
+#pragma mark  --------  添加背景颜色  -------- 
+
++ (instancetype)sk_title:(NSString *)title 
+                fontSize:(CGFloat)fontSize 
+              isFontBold:(BOOL)isFontBold 
+                   color:(UIColor *)color
+         backgroundColor:(UIColor *)backgroundColor 
+                  target:(_Nullable id)target
+                  action:(_Nullable SEL)action;
+
++ (instancetype)sk_title:(NSString *)title 
+                fontSize:(CGFloat)fontSize 
+              isFontBold:(BOOL)isFontBold 
+                colorHex:(uint32_t)colorHex
+         backgroundColorHex:(uint32_t)backgroundColorHex 
+                  target:(_Nullable id)target
+                  action:(_Nullable SEL)action;
+
++ (instancetype)sk_title:(NSString *)title 
+                fontSize:(CGFloat)fontSize 
+              isFontBold:(BOOL)isFontBold 
+             colorHexStr:(NSString *)colorHexStr
+      backgroundColorHexStr:(NSString *)backgroundColorStr 
+                  target:(_Nullable id)target
+                  action:(_Nullable SEL)action;
+
+
 
 
 @end
